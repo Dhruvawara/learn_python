@@ -1,7 +1,9 @@
-'''
-Write a short Python function that takes a positive integer n and returns
-the sum of the squares of all the odd positive integers smaller than n.
-'''
+"""
+Python allows negative integers to be used as indices into a sequence,
+such as a string. If string s has length n, and expression s[k] is used for in-
+dex −n ≤k < 0, what is the equivalent index j ≥0 such that s[j] references
+the same element?
+"""
 
 
 def main():
@@ -11,11 +13,7 @@ def main():
 
 
 def sum_of_squares_below_if_odd(n):
-    sum_of = 0
-    for value in range(n):
-        if value % 2 != 0:
-            sum_of += (value ** 2)
-    return sum_of
+    pass
 
 
 if __name__ == '__main__':

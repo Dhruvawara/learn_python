@@ -1,7 +1,7 @@
-'''
-Write a short Python function that takes a positive integer n and returns
-the sum of the squares of all the odd positive integers smaller than n.
-'''
+"""
+Give a single command that computes the sum from Exercise R-1.6, rely-
+ing on Python’s comprehension syntax and the built-in sum function.
+"""
 
 
 def main():
@@ -11,11 +11,7 @@ def main():
 
 
 def sum_of_squares_below_if_odd(n):
-    sum_of = 0
-    for value in range(n):
-        if value % 2 != 0:
-            sum_of += (value ** 2)
-    return sum_of
+    return sum([value ** 2 for value in range(n) if value % 2 != 0])
 
 
 if __name__ == '__main__':
