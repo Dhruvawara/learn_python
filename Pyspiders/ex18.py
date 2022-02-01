@@ -1,4 +1,6 @@
-# check username and password
+"""
+check username and password
+"""
 username = input("Username:")
 password = input("Password:")
 if username == "DHRUVA":

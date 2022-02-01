@@ -1,4 +1,6 @@
-# greatest of 4 numbers using nested conditions
+"""
+greatest of 4 numbers using nested conditions
+"""
 number_1 = int(input("Enter number 1:"))
 number_2 = int(input("Enter number 2:"))
 number_3 = int(input("Enter number 3:"))

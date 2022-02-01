@@ -1,4 +1,6 @@
-# to check whether the given character is an alphabet or not if it is an alphabet then check the char is an vowel or consonant
+"""
+to check whether the given character is an alphabet or not if it is an alphabet then check the char is an vowel or consonant
+"""
 
 
 def main():

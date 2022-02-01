@@ -1,5 +1,8 @@
-# WAP to print even numbers and odd numbers seperately from the given list
-# if it is an even store in an even list,if it is odd store in odd list.
+"""
+WAP to print even numbers and odd numbers seperately from the given list
+if it is an even store in an even list,if it is odd store in odd list.
+"""
+
 
 def main():
     even_list = []
@@ -15,7 +18,8 @@ def main():
             odd_list.append(value)
 
     print(f'{even_list = }\n{odd_list = }')
-    
+
+
 def new_func():
     number_list = [25, 30, 65, 40, 75, 38, 75, 38, 22, 12, 11, 7, 6]
     even_list = []
@@ -25,13 +29,11 @@ def new_func():
 
     for value in number_list:
         if value % 2 == 0:
-            even_list+= {value}
+            even_list += {value}
         else:
-            odd_list+=[value]
+            odd_list += [value]
 
     print(f'{even_list = }\n{odd_list = }')
-
-
 
 
 if __name__ == '__main__':
