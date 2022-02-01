@@ -7,13 +7,15 @@ the same element?
 
 
 def main():
-    print(f'{sum_of_squares_below_if_odd(4) = }\n{sum_of_squares_below_if_odd(13) = }')
-    for value in range(15):
-        print(f'{sum_of_squares_below_if_odd(value) = }  \t| {value = }')
+    print(f'''
+    {negative_to_positive_index("Dhruva", -3) = }
+    {negative_to_positive_index("Hello, World!",-11) = }
+    ''')
 
 
-def sum_of_squares_below_if_odd(n):
-    pass
+def negative_to_positive_index(string, index):
+    p_index = len(string) + index
+    return string[index], p_index, string[p_index]
 
 
 if __name__ == '__main__':

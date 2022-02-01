@@ -1,5 +1,6 @@
-# wap to print all the even numbers between the input range
-
+"""
+wap to print all the even numbers between the input range
+"""
 def main():
     start_number = int(input("Enter Start number : "))
     end_number = int(input("Enter end number : "))

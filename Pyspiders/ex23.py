@@ -1,5 +1,8 @@
-# wap to check wheather the given numbers is even or odd, if it is an even divide
-# the number by 2, if it is odd multiply number by 2 and store the result in separately
+"""
+wap to check wheather the given numbers is even or odd, if it is an even divide
+the number by 2, if it is odd multiply number by 2 and store the result in separately
+"""
+
 
 def main():
     number_list = list(map(int, input("Enter number : ").strip().split()))
