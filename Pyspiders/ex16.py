@@ -1,4 +1,6 @@
-# check weather character is alphabet,number,special symbol
+"""
+check weather character is alphabet,number,special symbol
+"""
 character = input("Character:")
 if "A" <= character <= "Z" or "a" <= character <= "z":
     print(character, "is a alphabet.")

@@ -1,4 +1,7 @@
-# greatest of 4 numbers
+"""
+greatest of 4 numbers
+"""
+
 num1 = int(input("A:"))
 num2 = int(input("B:"))
 num3 = int(input("C:"))
