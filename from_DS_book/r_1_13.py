@@ -7,7 +7,19 @@ for doing the same thing.
 
 
 def main():
-    pass
+    input_data = [n for n in range(10)]
+    print(f"{input_data = }")
+
+    reversed_data = []
+    for value in input_data:
+        reversed_data = [value] + reversed_data
+    print(f"{reversed_data = }")
+
+    print(f"{list(reversed(input_data)) = }")
+
+    print(f"{input_data = }")
+    input_data.reverse()
+    print(f"input_data.reverse() = {input_data}")
 
 
 if __name__ == '__main__':
