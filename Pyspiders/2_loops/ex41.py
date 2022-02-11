@@ -3,9 +3,6 @@ to check weather the given number is prime or not
 """
 
 
-from typing import Tuple
-
-
 def main():
     number = int(input("number -> "))
     prime = True
@@ -19,7 +16,7 @@ def main():
 
     prime = True
     num = 2
-    while num <= (number // 2 ):
+    while num <= (number // 2):
         if number % num == 0:
             prime = False
         num += 1
