@@ -8,7 +8,11 @@ print the following error message:
 
 
 def main():
-    pass
+    list_variable = []
+    try:
+        list_variable[0]
+    except IndexError:
+        print("Don't try buffer overflow attacks in Python!")
 
 
 if __name__ == '__main__':

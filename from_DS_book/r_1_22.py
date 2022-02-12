@@ -6,7 +6,11 @@ an array c of length n such that c[i] = a[i] ·b[i], for i = 0, . . . , n −1.
 
 
 def main():
-    pass
+    length = int(input("Array length : "))
+    a = list(map(int, input("a : ").split()))
+    b = list(map(int, input("b : ").split()))
+    c = [a[index] * b[index] for index in range(length)]
+    print(f"{a = }\n{b = }\n{c = }")
 
 
 if __name__ == '__main__':

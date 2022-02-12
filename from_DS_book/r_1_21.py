@@ -6,7 +6,13 @@ until an EOFError is raised, and then outputs those lines in reverse order
 
 
 def main():
-    pass
+    # try and except blocks are used to catch the exception
+    try:
+        data = input("Do you want to continue?: ")
+        raise EOFError
+    except EOFError:
+        print("Error: No input or End Of File is reached!")
+        print(data[::-1])
 
 
 if __name__ == '__main__':
